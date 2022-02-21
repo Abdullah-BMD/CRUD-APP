@@ -1,0 +1,21 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "simple-graphql-server",
+  "main": "server.js",
+  "scripts": {
+    "dev:server": "nodemon server.js"
+  },
+  "author": "Muhammad Abdullah",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server-express": "^3.6.3",
+    "axios": "^0.26.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "express-graphql": "^0.12.0",
+    "graphql": "^16.3.0",
+    "mongoose": "^6.2.2",
+    "nodemon": "^2.0.15"
+  }
+}
